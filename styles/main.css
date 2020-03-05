@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    height:100%; margin:0;
+    flex-direction:column;
+}
+
+.container {
+    padding: 20px;
+    font-size: 32px;
+}
+
+.row {
+    flex-basis: 100%;
+}
+
+footer {
+    height: 100px;
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    background: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.crumb a {
+    margin-right: 15px;
+    word-break: break-all;
+}
